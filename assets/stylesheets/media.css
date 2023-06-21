@@ -1,0 +1,51 @@
+@media (max-aspect-ratio: 16/9) {
+  video { 
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    background-image: url(../images/background_1.jpeg);
+    background-blend-mode: difference;
+  }
+  .menu-overlay {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .cellar-font-landing {
+    color: #FFF;
+  }
+  .distillery-title { color: #FFF; }
+  .landing-overlay {
+    background: rgba(0, 0, 0, 0.0);
+  }
+  video {
+      display: none;
+  }
+  .scroll-up-icon {
+    font-size: 40px !important;
+  }
+  .cellar-mobile-landing-page-container {
+    position: relative;
+    width: 100%;
+  }
+  .cellar-mobile-landing-page-title {
+    position: fixed;
+    z-index: -1;
+  }
+  .cellar-landing-mobile-img {
+    visibility: visible;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .cellar-landing-mobile-img img {
+    width: 300px;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+  }
+}
