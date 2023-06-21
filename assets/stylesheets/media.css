@@ -6,8 +6,7 @@
 }
 @media (max-width: 767px) {
   body {
-    background-image: url(../images/background_1.jpeg);
-    background-blend-mode: difference;
+    background-image: url(../images/cellar_mobile_background_1.jpg);
   }
   .menu-overlay {
     background: rgba(0, 0, 0, 0.6);
@@ -33,6 +32,7 @@
     position: fixed;
     z-index: -1;
   }
+  .cellar-mobile-landing-page-title h1 { font-size: 48px;}
   .cellar-landing-mobile-img {
     visibility: visible;
     position: relative;
@@ -43,7 +43,7 @@
     height: 100%;
   }
   .cellar-landing-mobile-img img {
-    width: 300px;
+    width: 250px;
     height: auto;
     position: fixed;
     z-index: -1;
